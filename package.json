@@ -1,0 +1,19 @@
+{
+  "name": "nightwatch-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ecosia": "npx nightwatch ./nightwatch/examples/basic/ecosia.js --env android.emulator.chrome",
+    "duckGo": "npx nightwatch ./nightwatch/examples/basic/duckDuckGo.js --env android.emulator.chrome",
+    "todo": "npx nightwatch ./nightwatch/examples/basic/todoList.js --env android.emulator.chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nightwatch/mobile-helper": "^1.0.2",
+    "chromedriver": "^131.0.3",
+    "nightwatch": "^3.9.0"
+  }
+}
